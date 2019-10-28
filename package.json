@@ -1,11 +1,11 @@
 {
-  "name": "nodebb-plugin-composer-quill",
-  "version": "1.1.1",
-  "description": "Quill Composer for NodeBB",
+  "name": "nodebb-plugin-composer-quill-updated",
+  "version": "1.1.2",
+  "description": "Quill Composer for NodeBB(fix version)",
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NodeBB/nodebb-plugin-composer-quill"
+    "url": "https://github.com/joysboy/nodebb-plugin-composer-quill"
   },
   "keywords": [
     "nodebb",
@@ -19,7 +19,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NodeBB/nodebb-plugin-composer-quill/issues"
+    "url": "https://github.com/joysboy/nodebb-plugin-composer-quill/issues"
   },
   "readmeFilename": "README.md",
   "nbbpm": {

@@ -50,7 +50,7 @@ plugin.checkCompatibility = function (callback) {
 		callback(err, {
 			markdown: data.active.indexOf('nodebb-plugin-markdown') === -1,	// plugin disabled
 			composer: data.active.filter(function (plugin) {
-				return plugin.startsWith('nodebb-plugin-composer-') && plugin !== 'nodebb-plugin-composer-quill';
+				return plugin.startsWith('nodebb-plugin-composer-') && plugin !== 'nodebb-plugin-composer-quill-updated';
 			}).length === 0,
 		});
 	});

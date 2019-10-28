@@ -1,5 +1,5 @@
 {
-	"id": "nodebb-plugin-composer-quill",
+	"id": "nodebb-plugin-composer-quill-updated",
 	"url": "https://github.com/NodeBB/nodebb-plugin-composer-quill",
 	"library": "library.js",
 	"hooks": [
@@ -13,15 +13,15 @@
 		{ "hook": "filter:post.getRawPost", "method": "handleRawPost" }
 	],
 	"css": [
-		"./node_modules/quill/dist/quill.snow.css",
-		"./node_modules/quill/dist/quill.bubble.css"
+		"../quill/dist/quill.snow.css",
+		"../quill/dist/quill.bubble.css"
 	],
 	"less": [
 		"../nodebb-plugin-composer-default/static/less/composer.less",
 		"./static/less/overrides.less"
 	],
 	"modules": {
-		"quill.js": "./node_modules/quill/dist/quill.js",
+		"quill.js": "../quill/dist/quill.js",
 		"quill-emoji.js": "./static/lib/emoji.js"
 	},
 	"acpScripts": [
@@ -40,7 +40,7 @@
 		"../nodebb-plugin-composer-default/static/lib/composer/resize.js",
 		"../nodebb-plugin-composer-default/static/lib/composer/tags.js",
 		"../nodebb-plugin-composer-default/static/lib/composer/uploads.js",
-		"./node_modules/screenfull/dist/screenfull.js"
+		"../screenfull/dist/screenfull.js"
 	],
 	"templates": "static/templates"
 }
